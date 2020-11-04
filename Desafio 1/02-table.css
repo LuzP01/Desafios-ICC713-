@@ -1,0 +1,53 @@
+body{
+    background: #FCE9DE;
+    font-family: "Homer Simpson UI";
+  color: gray;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    }
+.navbar li{
+    float: right;
+}
+.navbar li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: grey;
+}
+.container{
+    margin: 100px  auto;
+    width: 600px;
+}
+table {
+    background-color: #FCE9DE;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  th,td{
+       padding: 20;
+  }
+  thead{
+      background-color: #FCE9DE;
+      border-bottom: solid 5px grey;
+      color: gray;
+  }
+  tr:nth-child(even){
+      background-color: whitesmoke;
+  }
+  tr:hover td{
+      background-color: rgb(247, 202, 91);
+      color: white;
+  }
+#footer{
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+}
